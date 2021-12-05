@@ -6,7 +6,7 @@ const options = {
   url: "https://crypto-news-live.p.rapidapi.com/news",
   headers: {
     "x-rapidapi-host": "crypto-news-live.p.rapidapi.com",
-    "x-rapidapi-key": "c6f976e248mshe6bc768cf0dfd6fp167445jsn111e3ac2ff2e",
+    "x-rapidapi-key": process.env.REACT_APP_RAPID_API_KEY,
   },
 };
 

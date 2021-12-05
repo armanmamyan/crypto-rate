@@ -20,17 +20,45 @@ code {
 }
 
 .news-feed {
-  flex: 0 0 30%;  
-  background-color: antiquewhite;
+  flex: 0 0 35%;  
+  background-color: rgb(204, 204, 35%);
+  padding: 10px;
+  margin: 5px;
+  box-shadow: 0 3px 10px rgb(0,0,0, .2);
 }
 
 .currency-converter {
   flex-grow: 1;
-  background-color: black;
-  color: #fff;
-  padding: 4rem;
+  background-color: rgb(230, 223, 211);
+  box-shadow: 0 3px 10px rgb(0,0,0, .2);
+  padding: 10px;
+  margin: 5px;
+  text-align: center;
 }
 
 .exchange-rate {
-  background-color: purple;
+  background-color: rgb(221, 230, 221);
+  padding: 20px;
+  margin-block-start: 10px;
+  box-shadow: 0 3px 10px rgb(0,0,0, .2);
+}
+
+.input-box{
+  background-color: rgba(218,227,238);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 3px 10px rgb(0,0,0, .2);
+}
+
+button{
+  transition: background-color .5s ease;
+  border: none;
+  margin: 12px;
+  padding: 12px 30px;
+}
+
+
+button:hover{
+  background-color: coral;
+  color: rgb(255, 255, 255);
 }
