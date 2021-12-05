@@ -21,15 +21,10 @@ const CurrencyConverter = () => {
   const convert = () => {
     const options = {
       method: "GET",
-      url: "https://alpha-vantage.p.rapidapi.com/query",
+      url: "http://localhost:8000/convert-rate",
       params: {
         from_currency: choosenPrimaryCurrency,
-        function: "CURRENCY_EXCHANGE_RATE",
         to_currency: choosenSeocndaryCurrency,
-      },
-      headers: {
-        "x-rapidapi-host": "alpha-vantage.p.rapidapi.com",
-        "x-rapidapi-key": process.env.REACT_APP_RAPID_API_KEY,
       },
     };
 
